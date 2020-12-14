@@ -21,8 +21,8 @@ $new_par = str_replace($badword, '***', $par);
             ?>
         </p>
          <p>
-             la lunghezza del nuovo paragrafo è
-             <?php echo strlen($new_par); ?>
+             la lunghezza del paragrafo originale è
+             <?php echo strlen($par); ?>
          </p>
     </body>
 </html>
